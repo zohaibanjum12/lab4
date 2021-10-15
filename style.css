@@ -1,0 +1,69 @@
+div{background-color: salmon;
+  
+    background-size: cover;
+}
+body{
+    margin:0;
+    padding:13%;
+    background-image: url("zohaib.jpg");
+    background-size:cover;
+}
+.login-form
+{
+    background-color: black;
+    opacity:80%;
+    width: 380px;
+    height: 350px;
+    margin:0;
+  position:relative;
+  padding: 3%;
+  top: 25%;
+left: 25%;
+transform: (-50,-50);
+  box-sizing: border-box;
+}
+h1{
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+text-align:center;
+    font-size=40%;
+}
+p{
+    color: blanchedalmond;
+    margin:0;
+    padding: 0;
+   
+    font-size=18px;
+}
+input{
+    width:50%;
+}
+.login-form input[type="text"], input[type="password"]{
+border:none;
+outline:none;
+font-size=18px;
+border-bottom:1px solid rgb(240, 237, 237);
+background:transparent;
+}
+.login-form input[type=button]
+{
+    background-color: rgb(0, 0, 255);
+    color: blanchedalmond;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.login-form input[type=button]:hover
+{
+    background-color:black;}
+    .login-form a{
+        text-decoration: none;
+        color: rgb(236, 232, 234);
+        font-size: 18px;
+    }
+    .login-form img{
+        width: 100px;
+        position: relative;
+        height: 70px;
+       left: 10%;
+    }
